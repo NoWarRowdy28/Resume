@@ -1,0 +1,154 @@
+body {
+    background: rgb(237, 250, 255);
+}
+.rocky {
+    padding: 10px;
+    background: #eee; 
+margin-bottom: 10px;
+}
+
+.rocky p {
+    font-size: 14px;
+}
+
+.balboa {
+    background: #e96228;
+}
+id */
+#header {
+background: rgb(105, 83, 83);
+padding: 40px;
+}
+.Easy {
+    background: #1e5fa7;
+    color: rgb(202, 197, 206);
+}
+
+.bg-green {
+background: rgb(202, 241, 143);
+padding: 10px 10px 10px 10px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+.bg-yellow {
+background: rgb(255, 231, 153);
+padding: 10px 10px 10px 10px;
+margin-bottom: 10px;
+}
+.bg-red {
+background: rgb(219, 187, 250);
+padding: 10px 10px 10px 10px;
+}
+
+.container {
+    margin: 40px 40px 40px 40px;
+    max-width: 750px;
+    /* width: auto; */
+    margin: auto;
+    padding-top: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.info-right p {
+    margin: 0;
+    color: black;
+    padding-bottom: 5px;
+}
+ 
+.avatar {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 10);
+    margin-bottom: 10px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:active {
+    color: rgb(94, 1188, 241);
+}
+a:hover {
+    text-decoration:underline;
+    color: rgb(94, 188, 241);
+
+}
+a:visited {
+    color: rgb(87, 153, 252);
+}
+.btn {
+background: rgb(39, 38, 38);
+padding: 15px 20px;
+color: white;
+border: none;
+font-family: inherit;
+cursor: pointer;
+border-radius: 10px;
+}
+.btn:hover {
+    opacity: .8;
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: rgb(49, 51, 48);
+}
+.table {
+    width: 70%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+.list li {
+    padding-bottom: 5px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.info-right {
+    margin-left: 40px;
+margin-right: 5px;
+font-weight: bold;
+}
+.face {
+    margin-top: 70px;
+}
+
+.position {
+    position: relative;
+border: 2px solid black;
+height: 200px;
+padding: 5px;
+
+}
+
+
+.pos-box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #e96228;
+    top: 0;
+    left: 0;
+
+}
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: left;
+    }
+}
+.form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
